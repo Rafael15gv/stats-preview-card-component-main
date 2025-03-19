@@ -3,15 +3,12 @@
 /* ============================= */
 :root {
   /* ## Colors */
-
   /* ### Primary */
-
   --Very-dark-blue-color: hsl(233, 47%, 7%);
   --Dark-desaturated-blue-color: hsl(244, 38%, 16%);
   --Soft-violet-color: hsl(277, 64%, 61%);
 
   /* ### Neutral */
-
   --White: hsl(0, 0%, 100%);
   --Slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
   --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
@@ -42,6 +39,7 @@ body {
   height: 400px;
   background-color: var(--Dark-desaturated-blue-color);
   border-radius: 10px;
+  margin: 50px;
 }
 
 .container .content div {
@@ -100,17 +98,17 @@ p span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   background-blend-mode: multiply;
   background-color: hsl(277, 64%, 61%);
   border-radius: 0px 10px 10px 0px;
-  order: 2; 
+  order: 2;
 }
 
 @media (width <= 450px) {
   .container {
     flex-direction: column;
-    height: 85dvh;
+    height: 800px;
   }
 
   .container .fix {
@@ -119,7 +117,7 @@ p span {
     order: 2;
     height: 80%;
   }
-  
+
   h1 {
     margin: 15px 0px;
   }
@@ -128,7 +126,6 @@ p span {
     flex-direction: column;
   }
 
-  
   p {
     text-align: center;
     margin: 8px 0px;
